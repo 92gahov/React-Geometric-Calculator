@@ -1,3 +1,9 @@
+Geometric Calculator made with React.
+
+In the terminal write: npm start
+
+Final result <a href="https://geometric-calculator.surge.sh/" target="_blank">here</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
