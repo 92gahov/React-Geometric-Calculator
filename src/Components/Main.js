@@ -22,39 +22,18 @@ class Main extends React.Component {
                     <Navbar />
                     <div className='content'>
                         <Switch>
-                            <Route exact path="/">
-                                <Circle />
-                            </Route>
-                            <Route path="/triangle">
-                                <Triangle />
-                            </Route>
-                            <Route path="/right_angled_triangle">
-                                <RightAngledTriangle />
-                            </Route>
-                            <Route path="/square">
-                                <Square />
-                            </Route>
-                            <Route path="/rectangle">
-                                <Rectangle />
-                            </Route>
-                            <Route path="/rhombus">
-                                <Rhombus />
-                            </Route>
-                            <Route path="/parallelogram">
-                                <Parallelogram />
-                            </Route>
-                            <Route path="/trapezoid">
-                                <Trapezoid />
-                            </Route>
-                            <Route path="/pentagon">
-                                <Pentagon />
-                            </Route>
-                            <Route path="/hexagon">
-                                <Hexagon />
-                            </Route>
-                            <Route path="/polygon">
-                                <Polygon />
-                            </Route>
+                            <Route exact path="/" component={Circle}></Route>
+                            <Route path="/triangle" component={Triangle}></Route>
+                            <Route path="/right_angled_triangle" component={RightAngledTriangle}></Route>
+                            <Route path="/square" component={Square}></Route>
+                            <Route path="/rectangle" component={Rectangle}></Route>
+                            <Route path="/rhombus" component={Rhombus}></Route>
+                            <Route path="/parallelogram" component={Parallelogram}></Route>
+                            <Route path="/trapezoid" component={Trapezoid}></Route>
+                            <Route path="/pentagon" component={Pentagon}></Route>
+                            <Route path="/hexagon" component={Hexagon}></Route>
+                            <Route path="/polygon" component={Polygon}></Route>
+                            <Route path="*" component={Circle}></Route>
                         </Switch>
                     </div>
                     <Footer />
